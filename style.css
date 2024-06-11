@@ -71,6 +71,9 @@ body {
   body{
     padding:5rem;
   }
+  h1{
+    text-align: center;
+  }
   .select {
     height: 130px;
     width: 130px;
