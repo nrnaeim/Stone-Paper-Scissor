@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+#mgs {
+  font-size: 2rem;
+}
+.gameContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.select {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: rgb(134, 66, 251);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.select img {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+}
+.select img:hover {
+  height: 145px;
+  width: 145px;
+  transition: ease-in-out;
+}
+.count {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.count p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+}
+.btn {
+  font-family: Cambria, Cochin;
+  font-size: 1.1rem;
+  padding: 3px;
+}
+@media (max-width: 480px) {
+  .select {
+    height: 135px;
+    width: 135px;
+  }
+  .select img {
+    height: 130px;
+    width: 130px;
+  }
+  .select img:hover {
+    height: 125px;
+    width: 15px;
+  }
+}
