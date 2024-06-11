@@ -68,17 +68,20 @@ body {
   padding: 3px;
 }
 @media (max-width: 480px) {
+  body{
+    padding:2rem;
+  }
   .select {
-    height: 135px;
-    width: 135px;
+    height: 130px;
+    width: 130px;
   }
   .select img {
-    height: 125px;
-    width: 125px;
+    height: 120px;
+    width: 120px;
   }
   .select img:hover {
     
-    height: 130px;
-    width: 130px;
+    height: 125px;
+    width: 125px;
   }
 }
