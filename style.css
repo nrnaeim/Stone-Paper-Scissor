@@ -69,7 +69,7 @@ body {
 }
 @media (max-width: 480px) {
   body{
-    padding:2rem;
+    padding:5rem;
   }
   .select {
     height: 130px;
